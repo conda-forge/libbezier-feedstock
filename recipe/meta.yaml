@@ -13,7 +13,7 @@ source:
   sha256: {{ tar_gz_hash }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -25,8 +25,7 @@ requirements:
 
 test:
   commands:
-    - test -f "${PREFIX}/lib${ARCH}/libbezier${SHLIB_EXT}"  # [linux]
-    - test -f "${PREFIX}/lib/libbezier${SHLIB_EXT}"         # [osx]
+    - test -f "${PREFIX}/lib/libbezier${SHLIB_EXT}"         # [linux or osx]
     - if not exist %LIBRARY_BIN%\\bezier%SHLIB_EXT% exit 1  # [win]
 
 about:

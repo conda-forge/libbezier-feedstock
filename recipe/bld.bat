@@ -15,6 +15,7 @@ cmake                                                       ^
     -DCMAKE_BUILD_TYPE=Release                              ^
     -DCMAKE_INSTALL_PREFIX:PATH="%LIBRARY_PREFIX%"          ^
     -DCMAKE_Fortran_FLAGS="-fno-asynchronous-unwind-tables" ^
+    -DTARGET_NATIVE_ARCH:BOOL=OFF                           ^
     -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON                        ^
     -S "%SRC_DIR%\src\fortran"                              ^
     -B .

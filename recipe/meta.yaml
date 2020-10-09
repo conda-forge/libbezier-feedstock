@@ -13,7 +13,7 @@ source:
   sha256: {{ tar_gz_hash }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

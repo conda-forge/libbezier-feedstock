@@ -30,7 +30,7 @@ test:
 
 about:
   home: https://github.com/dhermes/bezier
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   summary: "Helper for B\xe9zier Curves, Triangles, and Higher Order Objects"

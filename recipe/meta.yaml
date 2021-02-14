@@ -1,8 +1,8 @@
 {% set name = "libbezier" %}
 {% set github_org = "dhermes" %}
 {% set github_repo = "bezier" %}
-{% set version = "2020.5.19" %}
-{% set tar_gz_hash = "ce5a3efc74c733329830b129c2943954213a71c7a5fd500b4cce94ff2347460f" %}
+{% set version = "2021.2.12" %}
+{% set tar_gz_hash = "57a18bad431706e888f8b2b45d7a11c5d05879184b163d788a9945c33947bfa1" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
   sha256: {{ tar_gz_hash }}
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -33,7 +33,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: "Helper for B\xe9zier Curves, Triangles, and Higher Order Objects"
+  summary: Helper for Bézier Curves, Triangles, and Higher Order Objects
 
   doc_url: https://bezier.readthedocs.io/en/{{ version }}/
   dev_url: https://github.com/dhermes/bezier

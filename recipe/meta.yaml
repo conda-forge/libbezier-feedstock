@@ -1,8 +1,8 @@
 {% set name = "libbezier" %}
 {% set github_org = "dhermes" %}
 {% set github_repo = "bezier" %}
-{% set version = "2021.2.12" %}
-{% set tar_gz_hash = "57a18bad431706e888f8b2b45d7a11c5d05879184b163d788a9945c33947bfa1" %}
+{% set version = "2023.7.28" %}
+{% set tar_gz_hash = "638722d01b349a868214b08228f4ffa8d803d7a5e5e02e4e45a9310ecda6a85e" %}
 
 package:
   name: {{ name }}

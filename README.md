@@ -11,7 +11,7 @@ Summary: Helper for Bézier Curves, Triangles, and Higher Order Objects
 
 Development: https://github.com/dhermes/bezier
 
-Documentation: https://bezier.readthedocs.io/en/2023.7.28/
+Documentation: https://bezier.readthedocs.io/en/2024.6.20/
 
 Current build status
 ====================
@@ -132,7 +132,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance

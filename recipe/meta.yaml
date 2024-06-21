@@ -21,7 +21,6 @@ requirements:
     - {{ compiler("fortran") }}        # [linux or osx]
     - make                             # [linux or osx]
     - {{ compiler("m2w64_fortran") }}  # [win]
-    - {{ stdlib("c") }}    # [win]
     - m2w64-toolchain                  # [win]
 
 test:

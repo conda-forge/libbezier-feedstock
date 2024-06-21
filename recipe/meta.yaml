@@ -1,8 +1,8 @@
 {% set name = "libbezier" %}
 {% set github_org = "dhermes" %}
 {% set github_repo = "bezier" %}
-{% set version = "2023.7.28" %}
-{% set tar_gz_hash = "638722d01b349a868214b08228f4ffa8d803d7a5e5e02e4e45a9310ecda6a85e" %}
+{% set version = "2024.6.20" %}
+{% set tar_gz_hash = "3e51b4f4d5d43ee5b5412c280d27178871fc1915b3af418a0c7cdfbdd6a2af3d" %}
 
 package:
   name: {{ name }}
@@ -21,6 +21,7 @@ requirements:
     - {{ compiler("fortran") }}        # [linux or osx]
     - make                             # [linux or osx]
     - {{ compiler("m2w64_fortran") }}  # [win]
+    - {{ stdlib("c") }}    # [win]
     - m2w64-toolchain                  # [win]
 
 test:

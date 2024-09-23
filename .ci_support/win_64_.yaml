@@ -1,3 +1,5 @@
+c_stdlib:
+- m2w64-gcc
 channel_sources:
 - conda-forge
 channel_targets:

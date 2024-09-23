@@ -20,6 +20,7 @@ requirements:
     - cmake
     - {{ compiler("fortran") }}        # [linux or osx]
     - make                             # [linux or osx]
+    - m2w64-make                       # [win]
     - {{ compiler("m2w64_fortran") }}  # [win]
     - {{ compiler('m2w64_c') }}        # [win]
     - {{ stdlib("c") }}                # [win]

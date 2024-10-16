@@ -18,11 +18,9 @@ build:
 requirements:
   build:
     - cmake
-    - {{ compiler("fortran") }}        # [linux or osx]
+    - {{ stdlib("c") }}
+    - {{ compiler("fortran") }}
     - make                             # [linux or osx]
-    - {{ compiler("m2w64_fortran") }}  # [win]
-    - {{ stdlib("c") }}    # [win]
-    - m2w64-toolchain                  # [win]
 
 test:
   commands:

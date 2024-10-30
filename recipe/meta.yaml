@@ -19,10 +19,10 @@ requirements:
   build:
     - cmake
     - {{ compiler("fortran") }}        # [linux or osx]
-    - make 
+    - make
     - {{ compiler("m2w64_fortran") }}  # [win]
     - {{ compiler('m2w64_c') }}        # [win]
-    - {{ stdlib("m2w64_c") }}                # [win]
+    - {{ stdlib("m2w64_c") }}          # [win]
 
 test:
   commands:

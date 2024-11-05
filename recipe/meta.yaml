@@ -17,13 +17,10 @@ build:
 
 requirements:
   build:
+    - {{ stdlib("c") }}
+    - {{ compiler("fortran") }}
     - cmake
-    - {{ compiler("fortran") }}
     - make                             # [linux or osx]
-    - {{ stdlib("c") }}
-    - {{ compiler("fortran") }}
-    - {{ stdlib("c") }}
-    - m2w64-toolchain                  # [win]
 
 test:
   commands:

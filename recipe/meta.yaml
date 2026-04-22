@@ -13,15 +13,16 @@ source:
   sha256: {{ tar_gz_hash }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - cmake
     - {{ compiler("fortran") }}        # [linux or osx]
-    - make                             # [linux or osx]
+    - make
     - {{ compiler("m2w64_fortran") }}  # [win]
-    - m2w64-toolchain                  # [win]
+    - {{ compiler('m2w64_c') }}        # [win]
+    - {{ stdlib("m2w64_c") }}          # [win]
 
 test:
   commands:
